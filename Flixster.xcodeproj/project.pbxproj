@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AA6988A0251ED9E60002F70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69889F251ED9E60002F70B /* AppDelegate.swift */; };
-		AA6988A2251ED9E60002F70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988A1251ED9E60002F70B /* ViewController.swift */; };
 		AA6988A5251ED9E60002F70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6988A3251ED9E60002F70B /* Main.storyboard */; };
 		AA6988A7251ED9E70002F70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6988A6251ED9E70002F70B /* Assets.xcassets */; };
 		AA6988AA251ED9E70002F70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6988A8251ED9E70002F70B /* LaunchScreen.storyboard */; };
 		AA6988B5251ED9E70002F70B /* FlixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988B4251ED9E70002F70B /* FlixsterTests.swift */; };
 		AA6988C0251ED9E70002F70B /* FlixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988BF251ED9E70002F70B /* FlixsterUITests.swift */; };
+		AA6988CE251EE0060002F70B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988CD251EE0060002F70B /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AA69889C251ED9E60002F70B /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA69889F251ED9E60002F70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA6988A1251ED9E60002F70B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA6988A4251ED9E60002F70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA6988A6251ED9E70002F70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6988A9251ED9E70002F70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AA6988BB251ED9E70002F70B /* FlixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6988BF251ED9E70002F70B /* FlixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixsterUITests.swift; sourceTree = "<group>"; };
 		AA6988C1251ED9E70002F70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6988CD251EE0060002F70B /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				AA69889F251ED9E60002F70B /* AppDelegate.swift */,
-				AA6988A1251ED9E60002F70B /* ViewController.swift */,
 				AA6988A3251ED9E60002F70B /* Main.storyboard */,
 				AA6988A6251ED9E70002F70B /* Assets.xcassets */,
 				AA6988A8251ED9E70002F70B /* LaunchScreen.storyboard */,
 				AA6988AB251ED9E70002F70B /* Info.plist */,
+				AA6988CD251EE0060002F70B /* MovieViewController.swift */,
 			);
 			path = Flixster;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6988A2251ED9E60002F70B /* ViewController.swift in Sources */,
 				AA6988A0251ED9E60002F70B /* AppDelegate.swift in Sources */,
+				AA6988CE251EE0060002F70B /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
