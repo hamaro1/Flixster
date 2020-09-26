@@ -14,6 +14,7 @@
 		AA6988B5251ED9E70002F70B /* FlixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988B4251ED9E70002F70B /* FlixsterTests.swift */; };
 		AA6988C0251ED9E70002F70B /* FlixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988BF251ED9E70002F70B /* FlixsterUITests.swift */; };
 		AA6988CE251EE0060002F70B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988CD251EE0060002F70B /* MovieViewController.swift */; };
+		AA6988D0251EF0110002F70B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6988CF251EF0110002F70B /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AA6988BF251ED9E70002F70B /* FlixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixsterUITests.swift; sourceTree = "<group>"; };
 		AA6988C1251ED9E70002F70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA6988CD251EE0060002F70B /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		AA6988CF251EF0110002F70B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AA69889F251ED9E60002F70B /* AppDelegate.swift */,
 				AA6988A3251ED9E60002F70B /* Main.storyboard */,
+				AA6988CF251EF0110002F70B /* MovieCell.swift */,
 				AA6988A6251ED9E70002F70B /* Assets.xcassets */,
 				AA6988A8251ED9E70002F70B /* LaunchScreen.storyboard */,
 				AA6988AB251ED9E70002F70B /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				AA6988A0251ED9E60002F70B /* AppDelegate.swift in Sources */,
 				AA6988CE251EE0060002F70B /* MovieViewController.swift in Sources */,
+				AA6988D0251EF0110002F70B /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
